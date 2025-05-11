@@ -9,10 +9,10 @@ strategy:
     maxUnavailable: 1
 
 image:
-  repository: nginx
+  repository: sjbs0212/devops-website
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: ""
+  tag: "v1"
 
 # imagePullSecrets:
 #   - name: regcred
